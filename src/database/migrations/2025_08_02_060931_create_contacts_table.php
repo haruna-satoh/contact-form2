@@ -19,7 +19,8 @@ class CreateContactsTable extends Migration
             $table->string('email');
             $table->integer('tell');
             $table->string('content')->nullable();
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent()->nullable;
+            $table->timestamp('updated_at')->useCurrent()->nullable();
         });
     }
 

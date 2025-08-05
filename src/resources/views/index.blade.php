@@ -12,16 +12,25 @@
             <span>お名前</span>
             <span>必須</span>
             <input type="text" name="name" placeholder="テスト太郎" value="{{ old('name') }}">
+            @error('name')
+                {{ $message }}
+            @enderror
         </div>
         <div>
             <span>メールアドレス</span>
             <span>必須</span>
             <input type="text" name="email" placeholder="test@example.com" value="{{ old('email') }}">
+            @error('email')
+                {{ $message }}
+            @enderror
         </div>
         <div>
             <span>電話番号</span>
             <span>必須</span>
             <input type="text" name="tel" placeholder="09012345678" value="{{ old('tel') }}">
+            @error('tel')
+                {{ $message }}
+            @enderror
         </div>
         <div>
             <span>お問い合わせ内容</span>

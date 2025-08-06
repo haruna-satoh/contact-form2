@@ -11,7 +11,13 @@
 </head>
 
 <body>
-    <h2>Contact Form</h2>
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo">
+                Contact Form
+            </a>
+        </div>
+    </header>
 </body>
 
 <main>

@@ -34,7 +34,7 @@
         </div>
         <div>
             <span>お問い合わせ内容</span>
-            <textarea name="contact" cols="30" rows="10" placeholder="資料をいただきたいです"></textarea>
+            <textarea name="content" cols="30" rows="10" placeholder="資料をいただきたいです"></textarea>
         </div>
         <button type="submit">送信</button>
     </form>

@@ -27,12 +27,12 @@
     margin-left: 5px;
     padding: 4px 6px;
     border-radius: 3px;
-    background: white;
-    color: grey;
+    background: #fafafa;
+    color: #aaa;
 }
 
 .form__error {
-    color: red;
+    color: #ff0000;
     text-align: left;
 }
 
@@ -40,7 +40,7 @@
 .form__input--textarea textarea {
     padding: 10px;
     width: 600px;
-    border: 1px solid grey;
+    border: 1px solid #ddd;
     border-radius: 3px;
 
     appearance: none;
@@ -55,8 +55,8 @@
 }
 
 button {
-    background: black;
-    color: white;
+    background: #000;
+    color: #fff;
     height: 40px;
     width: 30%;
     border: none;

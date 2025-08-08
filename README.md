@@ -9,7 +9,7 @@ contact-form
 
 ## 環境
 - PHP バージョン: 8.1
--Laravel バージョン: 8.83
+- Laravel バージョン: 8.83
 - データベース: MySQL(Docker使用)
 
 ## セットアップ手順
